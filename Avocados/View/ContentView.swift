@@ -8,9 +8,59 @@
 import SwiftUI
 
 struct ContentView: View {
+    //MARK: - Properties
+    
+    var headers: [Header] = headersData
+    
+    //MARK: - Body
     var body: some View {
-        Text("Avocado recipes")
-            .padding()
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(alignment: .center, spacing: 20) {
+                
+                //MARK: - HEADER
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 0) {
+                        ForEach(headers) { header in
+                            HeaderView(header: header)
+                        }
+                    }
+                }
+                
+                //MARK: - Dishes
+                Text("Avocado Dishes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                DishesView()
+                    .frame(maxWidth: 640)
+                
+                
+                //MARK: - FOOTER
+                VStack(alignment: .center, spacing: 20) {
+                    Text("All About Avocados")
+                        .fontWeight(.bold)
+                        .modifier(TitleModifier())
+                    Text("Everything you wanted to know about avocados but were to afraid to ask")
+                        .font(.system(.body, design: .serif))
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.gray)
+                        .frame(minHeight: 60)
+                }//:VSTack
+                .frame(maxWidth: 640)
+                .padding()
+                .padding(.bottom, 85)
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+        .padding(0)
+    }
+}
+
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(.title, design: .serif))
+            .foregroundColor(Color("ColorGreenAdaptive"))
+            .padding(8)
     }
 }
 
