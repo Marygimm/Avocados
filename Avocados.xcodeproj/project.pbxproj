@@ -20,6 +20,8 @@
 		57816D5F2908348400C4A5E7 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57816D5E2908348400C4A5E7 /* HeaderData.swift */; };
 		57816D61290837B600C4A5E7 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57816D60290837B600C4A5E7 /* DishesView.swift */; };
 		57816D6329083B3000C4A5E7 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57816D6229083B3000C4A5E7 /* FactsView.swift */; };
+		57816D6529083CD500C4A5E7 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57816D6429083CD500C4A5E7 /* FactModel.swift */; };
+		57816D6729083CF700C4A5E7 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57816D6629083CF700C4A5E7 /* FactData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		57816D5E2908348400C4A5E7 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		57816D60290837B600C4A5E7 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		57816D6229083B3000C4A5E7 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		57816D6429083CD500C4A5E7 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		57816D6629083CF700C4A5E7 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				57816D5E2908348400C4A5E7 /* HeaderData.swift */,
+				57816D6629083CF700C4A5E7 /* FactData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				57816D5C2908345500C4A5E7 /* HeaderModel.swift */,
+				57816D6429083CD500C4A5E7 /* FactModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,11 +200,13 @@
 				5760B5C72908291B00C44CF4 /* ContentView.swift in Sources */,
 				57816D5929082E0B00C4A5E7 /* AppView.swift in Sources */,
 				57816D5529082DF000C4A5E7 /* RipeningStagesView.swift in Sources */,
+				57816D6729083CF700C4A5E7 /* FactData.swift in Sources */,
 				5760B5C52908291B00C44CF4 /* AvocadosApp.swift in Sources */,
 				57816D5329082DDF00C4A5E7 /* AvocadosView.swift in Sources */,
 				57816D5D2908345500C4A5E7 /* HeaderModel.swift in Sources */,
 				57816D5F2908348400C4A5E7 /* HeaderData.swift in Sources */,
 				57816D61290837B600C4A5E7 /* DishesView.swift in Sources */,
+				57816D6529083CD500C4A5E7 /* FactModel.swift in Sources */,
 				57816D6329083B3000C4A5E7 /* FactsView.swift in Sources */,
 				57816D5B290830E200C4A5E7 /* HeaderView.swift in Sources */,
 			);
