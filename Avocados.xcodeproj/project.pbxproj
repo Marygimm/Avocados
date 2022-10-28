@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575E5754290C08FC00A72408 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E5753290C08FB00A72408 /* SplashScreen.swift */; };
 		5760B5C52908291B00C44CF4 /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760B5C42908291B00C44CF4 /* AvocadosApp.swift */; };
 		5760B5C72908291B00C44CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760B5C62908291B00C44CF4 /* ContentView.swift */; };
 		5760B5C92908291D00C44CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5760B5C82908291D00C44CF4 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575E5753290C08FB00A72408 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		5760B5C12908291B00C44CF4 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5760B5C42908291B00C44CF4 /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		5760B5C62908291B00C44CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				57816D5029082DCA00C4A5E7 /* Model */,
 				57816D4F29082DC300C4A5E7 /* Data */,
 				5760B5D229082C2E00C44CF4 /* Info.plist */,
+				575E5753290C08FB00A72408 /* SplashScreen.swift */,
 				5760B5C42908291B00C44CF4 /* AvocadosApp.swift */,
 				5760B5C82908291D00C44CF4 /* Assets.xcassets */,
 				5760B5CA2908291D00C44CF4 /* Preview Content */,
@@ -240,6 +243,7 @@
 				579DD93929093A570035F392 /* RipeningView.swift in Sources */,
 				57816D61290837B600C4A5E7 /* DishesView.swift in Sources */,
 				57816D6529083CD500C4A5E7 /* FactModel.swift in Sources */,
+				575E5754290C08FC00A72408 /* SplashScreen.swift in Sources */,
 				57816D6D29083EA400C4A5E7 /* RecipeCardView.swift in Sources */,
 				57816D6B29083E6D00C4A5E7 /* RecipeData.swift in Sources */,
 				57816D6329083B3000C4A5E7 /* FactsView.swift in Sources */,
